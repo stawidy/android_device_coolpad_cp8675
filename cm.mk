@@ -15,10 +15,10 @@
 $(call inherit-product, device/coolpad/cp8675/full_cp8675.mk)
 
 # Inherit some common MK stuff.
-$(call inherit-product, vendor/mk/config/common_full_phone.mk)
+$(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 PRODUCT_BRAND := coolpad
-PRODUCT_NAME := mk_cp8675
+PRODUCT_NAME := cm_cp8675
 BOARD_VENDOR := coolpad
 PRODUCT_DEVICE := cp8675
 PRODUCT_MANUFACTURER := coolpad
